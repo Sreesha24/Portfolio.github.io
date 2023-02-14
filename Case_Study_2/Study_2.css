@@ -1,0 +1,860 @@
+body { 
+
+        background-color: #1e1e1e;
+
+   
+   }
+
+
+
+   .study1-thumbnail {
+    background-image: url("E:\Portfolio_HTML\Case_Study_2\Images\background.jpg");
+     height: 700px;
+     display: flex;
+     justify-content: center;  
+     margin-top: 70px;
+     
+   }
+
+   
+   
+   .University { 
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    font-size: 140px;
+    height: 20px;
+    color:#fff9e9; 
+    margin-left: -200px;
+    margin-top: 200px;
+    
+   }
+
+
+
+
+   .uni-image {
+    margin-left: 0px;
+    height: 700px;
+    margin-top: 50px;
+
+   }
+
+
+   
+
+
+
+   .see-more-image {
+    position: absolute;
+    top: 660px;
+    right: 155px;
+    width: 200px;
+    height: 100px;
+}
+
+
+
+
+
+/* navigation bar */
+
+
+
+
+.nav-div {
+    height: 178px;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+
+
+}
+
+
+
+.nav-header {
+
+    position: absolute;
+    top: 816px;
+    left: 720px;
+    width: 450px;
+    display: flex;
+    align-items: center;
+    background-color: #3a3a3a;
+    opacity: 95%;
+    border: none;
+    border-radius: 6px; 
+  }
+
+
+  
+
+  .navbar{
+      margin: 0px 0 2px -15px;
+       
+  }
+  
+  
+
+  nav li {
+    display: inline-block;
+    list-style: none;
+    padding: 2px 14px 2px 14px;  
+  }
+
+
+  
+  nav a {
+    color: #fff9e9;
+    text-decoration: none;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    height: 12px;
+    opacity: 1;
+    position: relative;
+      
+  }
+  
+
+  
+  nav a:hover {
+    color: #f5c000;
+  }
+  
+   
+    
+    nav a::before {
+      content: '';
+      display: block;
+      height: 2px;
+      background: #f5c000;
+      position: absolute;
+      bottom: -6px;
+      left: 0;
+      right: 0;
+      transform: scale(0, 1);
+      transition: transform ease-in-out 250ms;
+    }
+    
+    nav a:hover::before {
+      transform: scale(1,1);
+    }
+
+
+
+
+
+
+
+
+
+    
+
+    .Background {
+      height: 12700px;
+        border-radius: 10px;
+        background-color: #3a3a3a;
+        margin: 10px ;
+
+    }
+  
+
+
+    .Case-study{
+        display: flex;
+        flex-direction: row;
+    }
+
+
+
+    
+
+
+    .intro {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      height: auto;
+      margin-top: 50px;
+    }
+
+    .quote{
+      font-family: 'Lexend Deca', sans-serif;
+      font-weight: 500;
+      font-size: 40px;
+      height: 36px;
+      line-height: 100px;
+      margin: 24px 0 0 35px;
+      color: #fff9e9;
+      text-align: center;
+
+    }
+
+
+    .quote-2{
+        font-family: 'Lexend Deca', sans-serif;
+        font-weight: 300;
+        font-size: 32px;
+        height: 36px;
+        line-height: 100px;
+        margin: 20px 0 0 35px;
+        color: #fff9e9;
+        text-align: center;
+  
+      }
+
+
+      .quote-3{
+        font-family: 'Lexend Deca', sans-serif;
+        font-weight: 300;
+        font-size: 20px;
+        height: 36px;
+        line-height: 100px;
+        margin: -30px 0 0 35px;
+        color: #fff9e9;
+        text-align: center;
+  
+      }
+
+      .font-size {
+        font-size: 16px;
+        font-weight: 300;
+      }
+
+      .font-weight { 
+        font-weight: 400;
+
+      }
+
+
+
+      .stat {
+        height: 240px;
+        background-color: #1e1e1e;
+        margin-top: 100px;
+        padding-top: 80px;
+
+      }
+
+      .stat-1 {
+        font-family: 'Lexend Deca', sans-serif;
+        font-weight: 400;
+        font-size: 42px;
+        height: 36px;
+        color: #fff9e9;
+        text-align: center;
+      }
+
+
+      .stat-2 {
+        height: 340px;
+        background-color: #1e1e1e;
+        margin-top: 100px;
+        padding-top: 80px;
+
+      }
+
+
+
+      /*PROBLEM STATEMENT */
+
+
+
+
+      .problem-identification{ 
+       
+        height: 300px;
+        margin-top: 100px;
+
+      }
+
+
+      .problem-divide {
+        display: flex;
+        flex-direction: row;
+      }
+
+      .problem {
+        width: 800px;
+        padding-top: 50px;
+        padding-left: 400px;
+      }
+
+
+      .problem-text {
+        font-family: 'Lexend Deca', sans-serif;
+        font-weight: 500;
+        font-size: 42px;
+        height: 36px;
+        color: #fff9e9;
+        text-align: left;
+      
+      }
+
+
+      .answer {
+        width: 1000px;
+        padding-top: 70px;
+        padding-right: 500px;
+      }
+
+
+      .how-might-we {
+        font-family: 'Lexend Deca', sans-serif;
+        font-weight: 300;
+        font-size: 20px;
+        height: 36px;
+        color: #fff9e9;
+        text-align: left;
+      
+      }
+
+
+
+       /*UNDERSTAND */
+
+
+
+      .understand-section{
+        height: 500px;
+      
+      }
+
+
+       .understand {
+        width: 1000px;
+        padding-top: 80px;
+        padding-left: 400px;
+
+
+       }
+
+
+
+       .topic {
+        font-family: 'Lexend Deca', sans-serif;
+        font-weight: 400;
+        font-size: 32px;
+        height: 36px;
+        color: #fff9e9;
+        text-align: left;
+       }
+
+
+
+       .elaboration {
+        font-family: 'Lexend Deca', sans-serif;
+        font-weight: 300;
+        font-size: 16px;
+        height: 36px;
+        color: #fff9e9;
+        text-align: left;
+       }
+
+
+
+      .topic-2 {
+        font-family: 'Lexend Deca', sans-serif;
+        font-weight: 500;
+        font-size: 50px;
+        height: 36px;
+        color: #fff9e9;
+        text-align: left;
+       }
+
+
+
+
+
+
+      
+       /*Why are there Refugees */
+
+
+       .career-div {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        box-align: stretch; 
+        padding: 40px 40px 40px 132px;
+        margin-top: -50px ;
+        margin-left: 280px;
+                
+        }
+
+        
+       
+        
+        .career-grid {
+        width: 1200px;
+        height: 600px;
+        padding-top: 30px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr ;
+        row-gap: 20px;
+        column-gap: 40px;
+        align-items: top;
+        
+    
+        }
+
+      
+
+        .Company-name {
+            font-family: 'Lexend Deca', sans-serif;
+            font-weight: 400;
+            font-size: 20px;
+            height: 40px;
+            color: #fff9e9;
+            margin-bottom: -5px;
+        }
+
+
+        .Role {
+            font-family: 'Lexend Deca', sans-serif;
+            font-weight: 400;
+            font-size: 16px;
+            height: 40px;
+            color: #fff9e9;
+            margin-top: 20px;
+        }
+
+        .Duration {
+            font-family: 'Lexend Deca', sans-serif;
+            font-weight: 300;
+            font-size: 16px;
+            height: 40px;
+            color: #fff9e9;
+            margin-top: 5px;
+            line-height: 30px;
+        }
+
+
+
+
+
+
+         /*Urgency */
+
+         .understand-2 {
+          width: 1000px;
+          margin-top: -20px;
+          padding-left: 400px;
+
+         }
+
+         .explanation {
+            height: 400px;
+            margin-top: 50px;
+            padding-left: 400px;
+            width: 1100px;
+
+         }
+
+         .explanation-content {
+          font-family: 'Lexend Deca', sans-serif;
+            font-weight: 400;
+            font-size: 18px;
+            height: 40px;
+            color: #fff9e9;
+            margin-top: 5px;
+            line-height: 36px;
+
+         }
+
+
+
+         .topic-3 {
+          font-family: 'Lexend Deca', sans-serif;
+          font-weight: 500;
+          font-size: 32px;
+          height: 36px;
+          color: #f5c000;
+          text-align: left;
+         }
+
+
+
+
+         
+         /*Design Process */
+
+         .design-div {
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+          box-align: stretch; 
+          padding: 30px 40px 40px 40px;
+          margin-left: 280px;
+                  
+          }
+
+
+          .design-process {
+            margin-top: -10px;
+            width: 1000px;
+            height: auto;
+
+          }
+
+          .design-thinking {
+            width: 950px;
+            height: auto;
+          }
+  
+          
+         
+
+
+
+          /*Larissa */
+
+
+
+         .understand-3 {
+          width: 1000px;
+          margin-top: 20px;
+          padding-left: 400px;
+
+
+         }
+
+
+         .understand-4 {
+          width: 1000px;
+          margin-top: 100px;
+          padding-left: 400px;
+
+         }
+
+         .understand-grid {
+          display: flex;
+          flex-direction: row;
+
+
+        }
+
+        .understand-blocks {
+          display: flex;
+          flex-direction: column;
+          margin-top: 30px;
+        }
+
+
+
+        .understand-block-one {
+          padding: 20px;
+          margin-left: 380px;
+          width: 640px;
+          margin-bottom: -10px;
+        }
+
+
+
+        .explanation-content-2 {
+          font-family: 'Lexend Deca', sans-serif;
+            font-weight: 300;
+            font-size: 18px;
+            color: #fff9e9;
+            margin-top: -10px;
+            margin-left: 24px;
+            line-height: 40px;
+
+         }
+
+
+         .understand-block-two {
+          margin-top: 140px;
+          margin-left: 100px;
+          margin-bottom: -20px;
+        }
+
+
+        .Larissa {
+          width: 500px;
+          height: auto;
+          border-radius: 6px;
+        }
+
+
+        .topic-4 {
+          font-family: 'Lexend Deca', sans-serif;
+          font-weight: 500;
+          font-size: 26px;
+          height: 36px;
+          color: #fff9e9;
+          text-align: left;
+         }
+
+
+
+
+         /*Brainstorming */
+
+
+         .brainstorm-section{
+          height: 900px;
+        
+        }
+
+
+         .brainstorm {
+          width: 1000px;
+          margin-top: 200px;
+          padding-left: 400px;
+
+         }
+
+
+         .brainstorm-image-div {
+          margin-left: 400px;
+         }
+
+
+         .brainstorm-image {
+          width: 1200px;
+          height: auto;
+         }
+
+
+
+
+
+           /*Final SOlution */
+
+
+
+           .solution-section {
+            height: 900px;
+
+
+           }
+
+
+
+           .solution-aim {
+              font-family: 'Lexend Deca', sans-serif;
+              font-weight: 400;
+              font-size: 24px;
+              height: 40px;
+              color: #fff9e9;
+              line-height: 36px;
+              text-align: left;
+  
+           }
+
+
+           .solution {
+            height: 400px;
+            margin-top: 40px;
+            padding-left: 400px;
+            width: 1120px;
+
+         }
+
+
+         .solution-aim-2 {
+          font-family: 'Lexend Deca', sans-serif;
+          font-weight: 300;
+          font-size: 20px;
+          height: 40px;
+          color: #fff9e9;
+          line-height: 36px;
+          text-align: left;
+
+       }
+
+       .topic-5 {
+        font-family: 'Lexend Deca', sans-serif;
+        font-weight: 500;
+        font-size: 32px;
+        height: 36px;
+        color: #f5c000;
+        text-align: left;
+        margin-top: 120px;
+       }
+
+
+
+
+
+
+       
+      /*Final UI */
+
+
+
+      .home-screen {
+        display: flex;
+        flex-direction: row;
+        width: 1300px;
+        margin-top: -20px;
+        padding-left: 350px;
+
+       }
+
+       .ui-1 {
+        width: 250px;
+        height: auto;
+        margin-right: 60px;
+        border-radius: 30px;
+       }
+
+
+       .ui-explanation {
+        font-family: 'Lexend Deca', sans-serif;
+        font-weight: 300;
+        font-size: 20px;
+        height: 40px;
+        color: #fff9e9;
+        line-height: 36px;
+        text-align: left;
+        margin-top: 200px;
+        margin-left: 100px;
+
+     }
+
+
+     .home-screen-2 {
+      display: flex;
+      flex-direction: row;
+      width: 1300px;
+      margin-top: 80px;
+      padding-left: 350px;
+
+     }
+
+
+     .solution-aim-3 {
+      font-family: 'Lexend Deca', sans-serif;
+      font-weight: 300;
+      font-size: 20px;
+      height: 40px;
+      color: #fff9e9;
+      line-height: 36px;
+      text-align: left;
+      margin-top: 150px;
+
+   }
+
+
+
+
+
+    /*Impact on the Society */
+
+
+    .society-section {
+      height: 900px;
+      margin-top: 300px;
+
+
+     }
+
+
+     .society-aim {
+      font-family: 'Lexend Deca', sans-serif;
+      font-weight: 300;
+      font-size: 20px;
+      height: 40px;
+      color: #fff9e9;
+      line-height: 36px;
+      text-align: left;
+      
+
+   }
+
+
+
+    /*Sustainability */
+
+
+   .sustainability-section {
+    height: 900px;
+    margin-top: -180px;
+
+   
+   }
+
+   .tie-ups {
+    display: flex;
+    flex-direction: row;
+    height: 200px;
+    padding-left: 400px;
+   }
+
+
+   .box-one {
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    width: 550px;
+    margin-right: 60px;
+   }
+
+
+
+
+   /*End */
+
+   .end {
+    height: 40px;
+    width: 600px;
+    padding-left: 600px;
+
+   }
+
+
+   .end-line { 
+
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 500;
+    font-size: 48px;
+    height: 36px;
+    color: #f5c000;
+    text-align: left;
+    margin-top: 260px;
+    text-align: center;
+
+   }
+
+
+
+
+   .next-project {
+    background-color: #f5c000;
+    height: 380px;
+    width: 340px;
+    margin: 115px 0px 54px 1250px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    transition: 0.3s;
+  }
+
+  .next-project:hover {height: 400px; width: 360px;}
+
+
+
+  .image-case-study {
+    margin: 20px 0 0 54px;
+    max-width: 200px;
+    height: auto;
+  }
+
+
+
+
+  .project-arrow {
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 500;
+    font-size: 32px;
+    margin: 30px 0 0 10px;
+    color: #fff9e9;
+  }
+
+
+
+

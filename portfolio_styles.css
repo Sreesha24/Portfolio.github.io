@@ -1,0 +1,673 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100;200;300;400;500;700&family=Lexend+Giga:wght@300;400;500&family=Lexend:wght@100;200;300;400;500;700&display=swap');
+body {
+
+    background-color: #1e1e1e;
+}
+    
+
+
+
+/* upper portion of landing page */
+
+
+
+
+.upper-portion-flex { 
+    display: flex;
+    flex-direction: row;
+    margin: 10px 0 0 0;
+    padding: 200px 0 0 80px;
+    height: 200px; 
+    justify-content: center;
+    }
+    
+    .mini-me {
+      width: 200px; 
+      height: auto; 
+    }
+
+    .Iam {
+        font-family: 'Lexend Deca', sans-serif;
+        font-weight: 300;
+        font-size: 28px;
+        height: 30px;;
+        margin: 50px 0 0 14px ;
+        color:#fff9e9; 
+    }
+
+    .Myname {
+        font-family: 'Lexend Deca', sans-serif;
+        font-weight: 500;
+        font-size: 102px;
+        height: 30px;
+        margin: -5px 0 0 3px;
+        color:#fff9e9;
+      
+    }
+
+    .lower-portion-flex { 
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        height: 110px;
+    }
+
+    .UI-UX-Designer {
+        font-family: 'Lexend Deca', sans-serif;
+        font-weight: 500;
+        font-size: 86px;
+        height: 20px;
+        margin: -2px 0 0 -90px;
+        color: #f5c000;
+
+    }
+
+    .based {
+        font-family: 'Lexend Deca', sans-serif;
+        font-weight: 300;
+        font-size: 24px;
+        height: 20px;
+        margin: 60px 0 0 10px;
+        color:#fff9e9;
+    }
+
+    .see-more-image {
+        margin: 50px 0 0 -36px;
+    }
+
+    .intro {
+        display: flex;
+        justify-content:left ;
+        margin: 0 0 0 315px;
+        color:#fff9e9;
+
+    }
+
+    .yellow {
+        color: #f5c000;
+    }
+
+    .Giga { 
+        font-family: 'Lexend Giga', sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+        height: 20px;
+    }
+
+    .Deca {
+        font-family: 'Lexend Deca', sans-serif;
+        font-weight: 300;
+        font-size: 16px;
+        height: 20px;
+    }
+
+
+
+
+    /* navigation bar */
+
+
+
+
+    .nav-div {
+        height: 250px;
+    
+    }
+
+    .nav-header {
+  
+        position: absolute;
+        top: 720px;
+        left: 720px;
+        width: 450px;
+        display: flex;
+        align-items: center;
+        background-color: #3a3a3a;
+        opacity: 95%;
+        border: none;
+        border-radius: 6px; 
+      }
+
+
+      
+      .navbar{
+          margin: 0px 0 2px -15px; 
+      }
+      
+      
+      nav li {
+        display: inline-block;
+        list-style: none;
+        padding: 2px 14px 2px 14px;  
+      }
+
+
+      
+      nav a {
+        color: #fff9e9;
+        text-decoration: none;
+        font-family: 'Lexend Deca', sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+        height: 12px;
+        opacity: 1;
+        position: relative;
+          
+      }
+      
+
+      
+      nav a:hover {
+        color: #f5c000;
+      }
+      
+       
+        
+        nav a::before {
+          content: '';
+          display: block;
+          height: 2px;
+          background: #f5c000;
+          position: absolute;
+          bottom: -6px;
+          left: 0;
+          right: 0;
+          transform: scale(0, 1);
+          transition: transform ease-in-out 250ms;
+        }
+        
+        nav a:hover::before {
+          transform: scale(1,1);
+        }
+      
+
+
+
+    /* coordinates */
+
+    .coordinate-box {
+        height: 50px;
+        padding-right: 300px;
+        padding-top: 20px;
+        
+
+    }
+
+    .coordinates { 
+        text-align: right;
+        font-family: 'Lexend Deca', sans-serif;
+        margin: 2px 0 2px 0;
+        font-weight: 300;
+        font-size: 16px;
+        height: 20px;
+        color:#fff9e9;
+
+    }
+
+
+
+
+
+
+    /* work section */
+
+
+    
+    #work-heading-div {
+        margin: 100px 0 20px 300px;
+        display: flex;
+        flex-direction: row;
+        justify-content:start;
+    
+        
+    }
+
+    .recent-project {
+        font-family: 'Lexend Deca', sans-serif;
+        font-weight: 300;
+        font-size: 54px;
+        height: 70px;
+        margin: 20px 0 10px 0;
+        color: #fff9e9;
+
+    }
+
+
+    .case-study-thumbnails {
+        height: 600px;
+        display: flex;
+        flex-direction: row;
+
+
+    }
+
+
+
+    .case-study-1 { 
+        background-color: rgb(105, 58, 190);
+        height: 700px;
+        width: 700px;
+        margin: 20px 0px 54px 280px;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        transition: 0.3s;
+    
+
+    }
+
+    .case-study-1:hover {height: 750px; width: 750px;}
+
+    .Connectx {
+        margin: 60px 0 0 160px;
+        max-width: 80%;
+        height: auto;
+    }
+
+    .Connectx-heading {
+        font-family: 'Lexend Deca', sans-serif;
+        font-weight: 500;
+        font-size: 32px;
+        margin: 30px 0 0 10px ;
+        color: #fff9e9;
+
+    }
+
+    .Paragraph-1 {
+        font-family: 'Lexend Deca', sans-serif;
+        font-weight: 300;
+        font-size: 20px;
+        margin: 10px 0 0 10px ;
+        color: #fff9e9;
+    }
+
+
+    .case-study-2 {
+        background-color: #F7BE05;
+        height: 700px;
+        width: 700px;
+        margin: 20px 0px 54px 50px;
+        border-radius: 10px;
+        transition: 0.3s;
+    }
+
+    .case-study-2:hover {height: 750px; width: 750px;}
+
+    .Uni {
+        margin: 0 20px 0 140px;
+        max-width: 60%;
+        height: auto;
+    }
+
+    .Uni-heading {
+        font-family: 'Lexend Deca', sans-serif;
+        font-weight: 500;
+        font-size: 32px;
+        margin: 12px 0 0 10px ;
+        color: #fff9e9;
+
+    }
+  
+
+
+
+    /* work-experience */
+
+
+
+    .career-div {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        box-align: stretch; 
+        padding: 40px 40px 40px 132px;
+        margin-top: 460px ;
+        background-color: black;
+                
+        }
+
+        
+        
+        .career-heading-div {
+        width: 30%;
+        padding: 60px 0 0 40px;
+        }
+        
+        .career-heading {
+        margin: 80px 0 10px 120px;
+        font-family: 'Lexend Deca', sans-serif;
+        font-weight: 100;
+        font-size: 64px;
+        height: 44px;
+        color: #fff9e9;
+
+        }
+        
+        .career-grid {
+        width: 1100px;
+        height: 400px;
+        padding-top: 30px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        row-gap: 12px;
+        column-gap: 12px;
+        align-items: top;
+    
+        }
+
+        .Experience {
+            background-color: black;
+
+        }
+
+        .Company-name {
+            font-family: 'Lexend Deca', sans-serif;
+            font-weight: 400;
+            font-size: 20px;
+            height: 40px;
+            color: #fff9e9;
+            margin-bottom: -5px;
+        }
+
+
+        .Role {
+            font-family: 'Lexend Deca', sans-serif;
+            font-weight: 400;
+            font-size: 16px;
+            height: 40px;
+            color: #fff9e9;
+            margin-top: 20px;
+        }
+
+        .Duration {
+            font-family: 'Lexend Deca', sans-serif;
+            font-weight: 300;
+            font-size: 16px;
+            height: 40px;
+            color: #fff9e9;
+            margin-top: -20px;
+        }
+
+
+
+         /* quotes */
+
+
+        .quote-text {
+            margin-top: 140px;
+            height: 350px;
+        
+        }
+
+        .quote-div {
+            padding: 0 184px 0 184px;
+            
+        }
+
+
+        .letsconnect {
+            font-family: 'Lexend Deca', sans-serif;
+            font-weight: 300;
+            font-size: 72px;
+            height: 40px;
+            color: #fff9e9;
+            text-align: center;
+            
+        }
+
+
+        .my-info {
+            font-family: 'Lexend Deca', sans-serif;
+            font-weight: 300;
+            font-size: 32px;
+            height: 30px;
+            color: #fff9e9;
+            text-align: center;
+            text-decoration: underline;
+
+        }
+
+        .linkedin { 
+            width: 1000px;
+            margin-top: -10px;
+            height: auto;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            margin-left: 430px;
+        }
+
+        .my-info-linkedin {
+            font-family: 'Lexend Deca', sans-serif;
+            font-weight: 300;
+            font-size: 20px;
+            height: 40px;
+            color: #fff9e9;
+            text-align: center;
+            text-decoration: underline;
+            
+
+        }
+
+
+        .arrow-linkedin {
+            margin-left: 10px;
+            margin-bottom: 10px;
+            width: auto; 
+            height: 20px; 
+          }
+
+
+
+
+        
+
+
+
+
+
+
+
+
+
+
+
+        
+
+        /* MOBILE SCREEN */
+
+
+        @media only screen and (max-width: 600px) 
+{
+
+    body {
+        background-color: #1e1e1e;
+    }
+
+
+/* upper portion of landing page */
+
+
+
+    .upper-portion-flex {
+        display: flex;
+        flex-direction: row;
+        margin-left: -10px;
+        margin-top: -50px;
+        height: auto;
+        justify-content: center;
+}
+
+    .mini-me {
+        width: 240px;
+        height: auto;
+        
+}
+
+    .Iam {
+        font-family: 'Lexend Deca', sans-serif;
+        font-weight: 300;
+        font-size: 24px;
+        height: 30px;
+        margin: 54px 0 0 14px;
+        color: #fff9e9;
+}
+
+
+    .Myname {
+        font-family: 'Lexend Deca', sans-serif;
+        font-weight: 500;
+        font-size: 50px;
+        margin: 6px 0 0 14px;
+        color: #fff9e9;
+}
+   
+
+
+.lower-portion-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: auto;
+    width: auto;
+    margin-left: 50px;
+}
+
+.UI-UX-Designer {
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 500;
+    font-size: 56px;
+    width: 800px;
+    height: 100px;
+    margin: 10px 0 0 30px;
+    color: #f5c000;
+}
+
+.based {
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    height: 26px;
+    margin: -10px 0 0 35px;
+    color: #fff9e9;
+}
+
+.see-more-image {
+    
+    display: none;
+   
+}
+
+.intro {
+    display: flex;
+    margin-left: 88px;
+    width:410px;
+    margin-top: 10px;
+    color: #fff9e9;
+    
+}
+
+
+.Deca {
+    font-family: 'Lexend Deca', sans-serif;
+    line-height: 32px;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+
+.Giga {
+    font-family: 'Lexend Giga', sans-serif;
+    line-height: 32px;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+    .yellow {
+        color: #f5c000;
+    }
+
+}
+
+
+
+/* NAV BAR */
+
+
+.nav-div {
+    height: 250px;
+
+}
+
+.nav-header {
+
+    position: absolute;
+    top: 720px;
+    left: 720px;
+    width: 450px;
+    display: flex;
+    align-items: center;
+    background-color: #3a3a3a;
+    opacity: 95%;
+    border: none;
+    border-radius: 6px; 
+  }
+
+
+  
+  .navbar{
+      margin: 0px 0 2px -15px; 
+  }
+  
+  
+  nav li {
+    display: inline-block;
+    list-style: none;
+    padding: 2px 14px 2px 14px;  
+  }
+
+
+  
+  nav a {
+    color: #fff9e9;
+    text-decoration: none;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    height: 12px;
+    opacity: 1;
+    position: relative;
+      
+  }
+  
+
+  
+  nav a:hover {
+    color: #f5c000;
+  }
+  
+   
+    
+    nav a::before {
+      content: '';
+      display: block;
+      height: 2px;
+      background: #f5c000;
+      position: absolute;
+      bottom: -6px;
+      left: 0;
+      right: 0;
+      transform: scale(0, 1);
+      transition: transform ease-in-out 250ms;
+    }
+    
+    nav a:hover::before {
+      transform: scale(1,1);
+    }
+
+
+
+
+        
